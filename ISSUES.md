@@ -7,12 +7,33 @@ This file owns `Next finding ID` and projects current issue-file state.
 `Next-Action` is the 2–6 word `Next-Action/Summary` projection from the issue record.
 When a row disagrees with its issue file, correct the row from the issue file in the same task.
 
-Next finding ID: ISSUE-001
+Next finding ID: ISSUE-022
 
 ## Open-Findings
 
 | ID | Finding | State | Authorized-Work | Publication-Target | Contribution-Priority | Next-Action | External-Reference |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| [ISSUE-001](issues/ISSUE-001.md) | Document detail: version switch overwrites dirty content | PR-Ready | Pull-Request-Implementation | New-pull-request | High | Review pull request draft | Not published. |
+| [ISSUE-002](issues/ISSUE-002.md) | Saved views: multi-owner filters lose IDs | Investigating | Research-and-Reporting | New-issue | High | Reproduce reported behavior | Not published. |
+| [ISSUE-003](issues/ISSUE-003.md) | Workflows: copy mutates original nested IDs | Investigating | Research-and-Reporting | New-issue | Medium | Reproduce reported behavior | Not published. |
+| [ISSUE-004](issues/ISSUE-004.md) | Document selection: stale pruning response wins | Investigating | Research-and-Reporting | New-issue | Medium | Reproduce reported behavior | Not published. |
+| [ISSUE-005](issues/ISSUE-005.md) | Document selection: deleted IDs remain selected | Investigating | Research-and-Reporting | New-issue | Medium | Reproduce reported behavior | Not published. |
+| [ISSUE-006](issues/ISSUE-006.md) | Settings: deep routes bypass edit permission gate | Investigating | Research-and-Reporting | New-issue | Medium | Reproduce reported behavior | Not published. |
+| [ISSUE-007](issues/ISSUE-007.md) | Settings: failed save publishes unpersisted state | Investigating | Research-and-Reporting | New-issue | Medium | Reproduce reported behavior | Not published. |
+| [ISSUE-008](issues/ISSUE-008.md) | Tasks: stale requests overwrite current page | Investigating | Research-and-Reporting | New-issue | Medium | Reproduce reported behavior | Not published. |
+| [ISSUE-009](issues/ISSUE-009.md) | Bulk editor: failed download remains pending | Investigating | Research-and-Reporting | New-issue | Medium | Reproduce reported behavior | Not published. |
+| [ISSUE-010](issues/ISSUE-010.md) | Mail rules: failed toggle stays optimistic | Investigating | Research-and-Reporting | New-issue | Medium | Reproduce reported behavior | Not published. |
+| [ISSUE-011](issues/ISSUE-011.md) | Workflows: reload failure leaves loading active | Investigating | Research-and-Reporting | New-issue | Medium | Reproduce reported behavior | Not published. |
+| [ISSUE-012](issues/ISSUE-012.md) | Global search: workflow row bypasses permission gate | Investigating | Research-and-Reporting | New-issue | Low | Reproduce reported behavior | Not published. |
+| [ISSUE-013](issues/ISSUE-013.md) | Filter editor: loading can remain active forever | Investigating | Research-and-Reporting | New-issue | Medium | Reproduce reported behavior | Not published. |
+| [ISSUE-014](issues/ISSUE-014.md) | Bulk editor: action permission gates are inconsistent | Investigating | Research-and-Reporting | New-issue | Medium | Reproduce reported behavior | Not published. |
+| [ISSUE-015](issues/ISSUE-015.md) | Workflows: failed toggle stays optimistic | Investigating | Research-and-Reporting | New-issue | Medium | Reproduce reported behavior | Not published. |
+| [ISSUE-016](issues/ISSUE-016.md) | Workflow editor: removal controls target wrong action | Investigating | Research-and-Reporting | New-issue | Medium | Reproduce reported behavior | Not published. |
+| [ISSUE-017](issues/ISSUE-017.md) | Document list: delete subscription outlives component | Investigating | Research-and-Reporting | New-issue | Medium | Reproduce reported behavior | Not published. |
+| [ISSUE-018](issues/ISSUE-018.md) | Mail permissions: failed PATCH mutates displayed object | Investigating | Research-and-Reporting | New-issue | Medium | Reproduce reported behavior | Not published. |
+| [ISSUE-019](issues/ISSUE-019.md) | Mail dialogs: failed delete disables retry | Investigating | Research-and-Reporting | New-issue | Low | Reproduce reported behavior | Not published. |
+| [ISSUE-020](issues/ISSUE-020.md) | Workflow dialog: failed delete disables retry | Investigating | Research-and-Reporting | New-issue | Low | Reproduce reported behavior | Not published. |
+| [ISSUE-021](issues/ISSUE-021.md) | Document notes: concurrent deletes overwrite newer state | Investigating | Research-and-Reporting | New-issue | Low | Reproduce reported behavior | Not published. |
 
 ## Archived-Findings
 

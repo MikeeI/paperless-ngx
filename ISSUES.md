@@ -7,7 +7,7 @@ This file owns `Next finding ID` and projects current issue-file state.
 `Next-Action` is the 2–6 word `Next-Action/Summary` projection from the issue record.
 When a row disagrees with its issue file, correct the row from the issue file in the same task.
 
-Next finding ID: ISSUE-022
+Next finding ID: ISSUE-027
 
 ## Open-Findings
 
@@ -34,6 +34,11 @@ Next finding ID: ISSUE-022
 | [ISSUE-019](issues/ISSUE-019.md) | Mail dialogs: failed delete disables retry | Investigating | Research-and-Reporting | New-issue | Low | Reproduce reported behavior | Not published. |
 | [ISSUE-020](issues/ISSUE-020.md) | Workflow dialog: failed delete disables retry | Investigating | Research-and-Reporting | New-issue | Low | Reproduce reported behavior | Not published. |
 | [ISSUE-021](issues/ISSUE-021.md) | Document notes: concurrent deletes overwrite newer state | Investigating | Research-and-Reporting | New-issue | Low | Reproduce reported behavior | Not published. |
+| [ISSUE-022](issues/ISSUE-022.md) | Importer: archive filename escapes media root | Investigating | Research-and-Reporting | Not-Selected | High | Reproduce importer overwrite | Not published. |
+| [ISSUE-023](issues/ISSUE-023.md) | Workflows: nested IDs bypass child permissions | Investigating | Research-and-Reporting | Not-Selected | Medium | Reproduce permission bypass | Not published. |
+| [ISSUE-024](issues/ISSUE-024.md) | Webhooks: internal requests are allowed by default | Investigating | Research-and-Reporting | Not-Selected | Low | Validate webhook threat model | Not published. |
+| [ISSUE-025](issues/ISSUE-025.md) | OCR settings: user args override managed paths | Investigating | Research-and-Reporting | Not-Selected | Low | Probe OCR path overrides | Not published. |
+| [ISSUE-026](issues/ISSUE-026.md) | Container: native parser versions drift between builds | Investigating | Research-and-Reporting | Not-Selected | Low | Capture native package provenance | Not published. |
 
 ## Archived-Findings
 

@@ -28,6 +28,7 @@ Impact [S]: The asynchronous version response replaces the unsaved content value
 - [O] Disposable backend and Angular E2E UI in Chromium — selecting the current version with edited content displayed the confirmation; `Keep editing` preserved the content and selected version.
 - [S] `upstream/dev@abdf15466c774c6f54cf87fadca716e26b557bb6` leaves both contribution files unchanged from the recorded base.
 - [O] https://github.com/paperless-ngx/paperless-ngx/pull/14062 — upstream pull request published and observable.
+- [O] Pull request checks completed with 25 successful and 5 skipped checks; no failures remained.
 
 ## Prior-Art
 
@@ -77,6 +78,7 @@ Checks:
 - `corepack pnpm ng test --test-path-patterns=document-detail.component.spec.ts --watch=false` — passed, 116 tests.
 - `corepack pnpm lint` — passed.
 - Chromium desktop with disposable E2E backend — passed confirmation and cancel-preservation scenario.
+- Upstream pull request checks — passed, 25 successful and 5 skipped.
 
 ## Publication-Draft
 

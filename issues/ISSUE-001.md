@@ -1,14 +1,14 @@
 # ISSUE-001 — Document detail: version switch overwrites dirty content
 
-State: PR-Ready
+State: Submitted
 Authorized-Work: Pull-Request-Implementation
 Publication-Target: New-pull-request
-External-Reference: Not published.
+External-Reference: https://github.com/paperless-ngx/paperless-ngx/pull/14062
 Contribution-Priority: High
 Root-Cause-Confidence: High
 Finding-Category: Correctness
 Created: 2026-09-08
-Updated: 2026-09-08
+Updated: 2026-09-10
 Source: `upstream/dev@b989b741401ad6a3dafbc565be2a28f08df6258e`
 
 ## Root-Cause
@@ -26,6 +26,8 @@ Impact [S]: The asynchronous version response replaces the unsaved content value
 - [S] https://github.com/paperless-ngx/paperless-ngx/pull/12233 — Related version-editing work; it does not protect dirty content.
 - [O] `corepack pnpm ng test --test-path-patterns=document-detail.component.spec.ts --watch=false` — 116 tests passed, including dirty version-switch confirmation and accepted-content baseline coverage.
 - [O] Disposable backend and Angular E2E UI in Chromium — selecting the current version with edited content displayed the confirmation; `Keep editing` preserved the content and selected version.
+- [S] `upstream/dev@abdf15466c774c6f54cf87fadca716e26b557bb6` leaves both contribution files unchanged from the recorded base.
+- [O] https://github.com/paperless-ngx/paperless-ngx/pull/14062 — upstream pull request published and observable.
 
 ## Prior-Art
 
@@ -55,13 +57,13 @@ Protect version switching with the existing dirty-state confirmation and reset t
 
 ## Publication-Blockers
 
-External publication requires approval of the exact pull request draft below.
+None.
 
 ## Next-Action
 
-Summary: Review pull request draft
-Action: Review the exact draft and target before external publication.
-Done-When: The user approves the exact draft for submission to `paperless-ngx/paperless-ngx`.
+Summary: Monitor upstream pull request
+Action: Monitor checks and maintainer review on pull request `#14062`.
+Done-When: The pull request is merged, declined, superseded, or requires a bounded revision.
 
 ## Pull-Request-Implementation
 
@@ -103,7 +105,7 @@ This pull request was prepared with assistance from an AI coding agent under hum
 
 - [x] Bug fix: non-breaking change which fixes an issue.
 - [ ] New feature / Enhancement: non-breaking change which adds functionality. _Please read the important note above._
-- [ ] Breaking change: fix or feature that would cause existing functionality to not work as expected.
+- [ ] Breaking change: fix or feature that would cause existing functionality not to work as expected.
 - [ ] Documentation only.
 - [ ] Other. Please explain:
 

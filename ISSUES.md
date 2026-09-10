@@ -13,7 +13,7 @@ Next finding ID: ISSUE-022
 
 | ID | Finding | State | Authorized-Work | Publication-Target | Contribution-Priority | Next-Action | External-Reference |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [ISSUE-001](issues/ISSUE-001.md) | Document detail: version switch overwrites dirty content | PR-Ready | Pull-Request-Implementation | New-pull-request | High | Review pull request draft | Not published. |
+| [ISSUE-001](issues/ISSUE-001.md) | Document detail: version switch overwrites dirty content | Submitted | Pull-Request-Implementation | New-pull-request | High | Monitor upstream pull request | https://github.com/paperless-ngx/paperless-ngx/pull/14062 |
 | [ISSUE-002](issues/ISSUE-002.md) | Saved views: multi-owner filters lose IDs | Investigating | Research-and-Reporting | New-issue | High | Reproduce reported behavior | Not published. |
 | [ISSUE-003](issues/ISSUE-003.md) | Workflows: copy mutates original nested IDs | Investigating | Research-and-Reporting | New-issue | Medium | Reproduce reported behavior | Not published. |
 | [ISSUE-004](issues/ISSUE-004.md) | Document selection: stale pruning response wins | Investigating | Research-and-Reporting | New-issue | Medium | Reproduce reported behavior | Not published. |
